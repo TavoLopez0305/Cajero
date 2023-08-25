@@ -1,0 +1,41 @@
+body{
+    background-color: #9b9b9b;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+nav img{
+    width: 55px;
+    height: auto;
+}
+main form{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    align-items: center;
+
+}
+.input-group{
+
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        width: 50%;
+        flex-direction: column;
+        margin: 5px;
+
+}
+.div-form{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+form .container{
+    margin: 5px;
+    display: flex;
+    justify-content:space-evenly;
+
+}

@@ -1,0 +1,49 @@
+nav{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+.container-1{
+    background-color: #0080e2 ;
+    width: 15%;
+
+}
+.container-1 a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+
+}
+.container-1 a img{
+    width: 50px;
+    border-radius: 50%;
+}
+.container-1 a p{
+    color: white;
+    margin: 0;
+
+}
+.conatiner-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.conatiner-2 div{
+    margin: 5px;
+}
+.perfil{
+
+}
+.container-3{
+    background-color: #009EE3 ;
+    width: 89%;
+    align-items: center;
+    display: flex;
+}
+.container-3 p{
+    color: white;
+    margin: 0;
+    padding: 5px;
+
+}
