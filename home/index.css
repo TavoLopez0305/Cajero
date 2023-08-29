@@ -1,3 +1,8 @@
+
+body{
+    background-color: #EDEDED;
+    font-family: sans-serif;
+}
 nav{ 
     display: flex;
     flex-direction: row;
@@ -16,10 +21,12 @@ nav{
 
 }
 .container-1 a img{
+    margin-left: 15px;
     width: 50px;
     border-radius: 50%;
 }
 .container-1 a p{
+    font-weight: 600;
     color: white;
     margin: 0;
 
@@ -38,12 +45,146 @@ nav{
 .container-3{
     background-color: #009EE3 ;
     width: 89%;
+    justify-content: space-between;
     align-items: center;
     display: flex;
+    font-weight: 600;
+    font-size: 20px;
 }
 .container-3 p{
+   
     color: white;
     margin: 0;
     padding: 5px;
+}
+.container-3 a{
+    text-decoration: none;
+    color: white;
+}
+.container-3 a img{
+    width: 50px;
+    height: auto;
+}
 
+main{
+    display: flex;
+    flex-direction: row;
+
+}
+aside{
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 10px;
+}
+aside ul {
+    list-style: none;
+}
+aside ul li{
+    margin-top: 15%;
+}
+aside ul li a{
+    text-decoration: none;
+    color: #007EB5;
+    font-size: 20px;
+    font-weight: 600;
+}
+article{
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.section-1{
+    width: 50%;
+    height: auto;
+}
+.block-1{
+    background-color:white ;
+    border-radius: 5px ;
+    padding: 20px;
+    margin: 5px;
+}
+.block-1 p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.block-2{
+    background-color:white ;
+    border-radius: 5px ;
+    padding: 10px;
+}
+.block-2 a{
+    text-decoration: none;
+    color: #009EE3;
+    padding: 5px 25px 5px 25px;
+    background-color: #E4F0F8;
+    font-size: 20px;
+    font-weight: 500;
+}
+.block-3{
+    background-color:white ;
+    border-radius: 5px ;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.block-3 p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.block-3 img{
+    margin: 10px;
+}
+.block-3 div{ 
+    margin: 10px;
+}
+.block-3 div a{
+    text-decoration: none;
+    color: #009EE3;
+    padding: 5px 25px 5px 25px;
+    background-color: #E4F0F8;
+    font-size: 20px;
+    font-weight: 500;
+}
+.block-4{
+    background-color:white ;
+    border-radius: 5px ;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.block-4 p{
+    margin: 0;
+
+}
+.block-5{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+.block-5 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+
+}
+.block-5 ul li{
+    margin: 10px;
+}
+.block-5 ul li a{
+    text-decoration: none;
+    color: black;
+    
 }

@@ -1,5 +1,5 @@
 body{
-    background-color: #9b9b9b;
+    background-image: url(/login/imgs/fondo-geometrico-abstracto-estructura-metalica_52683-59421.avif);
 }
 nav{
     display: flex;
@@ -7,6 +7,7 @@ nav{
     justify-content: center;
 }
 nav img{
+    margin-left: 10px;
     width: 55px;
     height: auto;
 }
